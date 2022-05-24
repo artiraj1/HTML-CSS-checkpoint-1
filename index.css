@@ -1,0 +1,184 @@
+css /* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+::after
+::before{
+    box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(7, 22, 76);
+  padding: 1rem;
+
+  text-align: center;
+  font-size: 2rem;
+}
+section {
+  text-align: center;
+}
+
+.home {
+  color: green;
+  margin-right: 1rem;
+}
+.blog {
+  color: white;
+}
+h1 {
+  text-align: center;
+  padding: 4rem;
+  font-size: 35px;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(154, 215, 201);
+  border: 15px solid rgb(88, 115, 226);
+  display: inline-block;
+  margin-top: 28px;
+  outline: 5px solid black;
+  box-shadow: 0 0 0 25px rgb(144, 255, 169);
+  border-radius: 5%;
+  margin-top: 4rem;
+  
+}
+.marker {
+  text-align: center;
+  margin-top: 50px;
+
+}
+.style{
+    word-spacing: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.name{
+    display: inline;
+    
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(154, 216, 201);
+  display: inline-block;
+  border-radius: 50px;
+  outline: 2px solid black;
+  font-size: 1rem;
+
+}
+.padding {
+  background-color: black;
+  
+}
+.border {
+  background-color: rgb(144, 254, 169);
+}
+.margin {
+  background-color: rgb(88, 115, 226);
+  border-radius: none;
+}
+hr {
+  width: 1000px;
+  border-style: dashed;
+  margin-top: 2rem;
+}
+.header {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.container {
+  width: 700px;
+  border:1px solid black;
+  margin: auto;
+  
+}
+.box2 {
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+  background-color: rgb(218, 224, 250);
+  display: inline-block;
+  
+ 
+}
+.hr2{
+margin-top: 2rem;
+}
+.container1{
+    width: 700px;
+    border: 1px solid black;
+    margin: auto;
+   
+}
+.box3{
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    background-color:  rgb(218, 224, 250);
+    display: inline-block;
+    outline: 1px solid black;
+}
